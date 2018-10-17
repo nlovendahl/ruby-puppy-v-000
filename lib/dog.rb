@@ -8,7 +8,7 @@ class Dog
   end
 
   def all
-    puts "#{@@all.split}"
+    puts "#{@@all.join(",")}"
   end
 
 end
