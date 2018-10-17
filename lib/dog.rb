@@ -10,7 +10,7 @@ class Dog
   end
 
   def self.all
-    puts "#{@@all.join(",")}"
+    puts "#{@@all}"
   end
 
 end
